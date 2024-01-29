@@ -14,5 +14,10 @@ public class SampleTest {
 	{
 		System.out.println(" sample test2 ");
 	}
+	
+	public void sample3Test()
+	{
+		System.out.println(" new sample test3 ");
+	}
 
 }
