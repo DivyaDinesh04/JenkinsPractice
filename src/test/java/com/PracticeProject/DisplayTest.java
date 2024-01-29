@@ -10,6 +10,10 @@ public class DisplayTest extends BaseClass{
 	@Test(groups = "smoke")
 	public void display1Test()
 	{
+		String browser = System.getProperty("browser");	
+		String env = System.getProperty("env");
+		System.out.println(browser);
+		System.out.println(env);
 		System.out.println(" display test1 ");
 	}
 	
