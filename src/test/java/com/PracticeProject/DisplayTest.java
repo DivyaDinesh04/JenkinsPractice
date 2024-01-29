@@ -17,4 +17,10 @@ public class DisplayTest {
 	{
 		System.out.println(" display test2 ");
 	}
+	
+	@Test(groups = "regression")
+	public void display3Test()
+	{
+		System.out.println(" display test3 ");
+	}
 }
