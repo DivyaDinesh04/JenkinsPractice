@@ -2,7 +2,9 @@ package com.PracticeProject;
 
 import org.testng.annotations.Test;
 
-public class DisplayTest {
+import com.genericLibrary.BaseClass;
+
+public class DisplayTest extends BaseClass{
 
 	
 	@Test(groups = "smoke")
