@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>TYSS</groupId>
-  <artifactId>JenkinsPractice</artifactId>
+  <groupId>TYSS1</groupId>
+  <artifactId>E-Commerce_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
@@ -19,32 +19,6 @@
     <groupId>net.sourceforge.tess4j</groupId>
     <artifactId>tess4j</artifactId>
     <version>5.9.0</version>
-    <exclusions>
-    	<exclusion>
-    		<groupId>org.junit.platform</groupId>
-    		<artifactId>junit-platform-engine</artifactId>
-    	</exclusion>
-    	<exclusion>
-    		<groupId>org.junit.jupiter</groupId>
-    		<artifactId>junit-jupiter-engine</artifactId>
-    	</exclusion>
-    	<exclusion>
-    		<groupId>org.junit.platform</groupId>
-    		<artifactId>junit-platform-commons</artifactId>
-    	</exclusion>
-    	<exclusion>
-    		<groupId>org.junit.jupiter</groupId>
-    		<artifactId>junit-jupiter-params</artifactId>
-    	</exclusion>
-    	<exclusion>
-    		<groupId>org.junit.jupiter</groupId>
-    		<artifactId>junit-jupiter-api</artifactId>
-    	</exclusion>
-    	<exclusion>
-    		<groupId>org.junit.jupiter</groupId>
-    		<artifactId>junit-jupiter</artifactId>
-    	</exclusion>
-    </exclusions>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -88,12 +62,6 @@
     <groupId>com.googlecode.json-simple</groupId>
     <artifactId>json-simple</artifactId>
     <version>1.1.1</version>
-    <exclusions>
-    	<exclusion>
-    		<groupId>junit</groupId>
-    		<artifactId>junit</artifactId>
-    	</exclusion>
-    </exclusions>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -104,15 +72,6 @@
     <scope>test</scope>
     
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.30</version>
-    <scope>provided</scope>
-</dependency>
-
 
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
@@ -125,7 +84,7 @@
 
   </dependencies>
   
-  <profiles>
+   <profiles>
 	 <profile>
 		<id>smoke</id>
 		<build>
@@ -147,7 +106,6 @@
 			</pluginManagement>
 		</build>
 	 </profile>
-	 
 	 
 	 <profile>
 		<id>regression</id>
@@ -172,5 +130,5 @@
 	 </profile>
   </profiles>
   
-  
 </project>
+
