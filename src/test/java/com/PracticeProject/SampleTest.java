@@ -18,6 +18,7 @@ public class SampleTest {
 	public void sample3Test()
 	{
 		System.out.println(" new sample test3 ");
+		System.out.println(" new sample test4 ");
 	}
 
 }
