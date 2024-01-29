@@ -9,19 +9,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 
 public class BaseClass {
 	
 	WebDriver driver;
 	WebDriverUtils wLib = new WebDriverUtils();
 	FileUtils fLib = new FileUtils();
-	@Parameters("BROWSER")
 	
 	@BeforeClass(alwaysRun = true)
-	public void config_BC(String BROWSER) throws IOException
+	public void config_BC() throws IOException
 	{
-		
+		String BROWSER = fLib.readDataFromPropertyFile("browser");
 		if(BROWSER.equalsIgnoreCase("chrome")) 
 		{
 			driver = new ChromeDriver();
