@@ -10,7 +10,7 @@ public class SampleTest {
 		System.out.println(" sample test1 ");
 	}
 	
-	@Test(groups = "smoke")
+	@Test(groups = "regression")
 	public void sample2Test()
 	{
 		System.out.println(" sample test2 ");
