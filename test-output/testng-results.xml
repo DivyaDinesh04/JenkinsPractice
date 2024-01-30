@@ -14,35 +14,35 @@
       <![CDATA[-- browser closed --]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-29T17:55:48 IST" name="Suite" finished-at="2024-01-29T17:55:54 IST" duration-ms="5944">
+  <suite started-at="2024-01-30T16:47:37 IST" name="Suite" finished-at="2024-01-30T16:47:52 IST" duration-ms="14688">
     <groups>
       <group name="regression">
-        <method signature="SampleTest.sample3Test()[pri:0, instance:com.PracticeProject.SampleTest@4988d8b8]" name="sample3Test" class="com.PracticeProject.SampleTest"/>
+        <method signature="SampleTest.sample3Test()[pri:0, instance:com.PracticeProject.SampleTest@394df057]" name="sample3Test" class="com.PracticeProject.SampleTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="DisplayTest.display1Test()[pri:0, instance:com.PracticeProject.DisplayTest@13b6aecc]" name="display1Test" class="com.PracticeProject.DisplayTest"/>
-        <method signature="SampleTest.sample1Test()[pri:0, instance:com.PracticeProject.SampleTest@4988d8b8]" name="sample1Test" class="com.PracticeProject.SampleTest"/>
-        <method signature="SampleTest.sample3Test()[pri:0, instance:com.PracticeProject.SampleTest@4988d8b8]" name="sample3Test" class="com.PracticeProject.SampleTest"/>
+        <method signature="DisplayTest.display1Test()[pri:0, instance:com.PracticeProject.DisplayTest@45b4c3a9]" name="display1Test" class="com.PracticeProject.DisplayTest"/>
+        <method signature="SampleTest.sample1Test()[pri:0, instance:com.PracticeProject.SampleTest@394df057]" name="sample1Test" class="com.PracticeProject.SampleTest"/>
+        <method signature="SampleTest.sample3Test()[pri:0, instance:com.PracticeProject.SampleTest@394df057]" name="sample3Test" class="com.PracticeProject.SampleTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-01-29T17:55:48 IST" name="Test" finished-at="2024-01-29T17:55:54 IST" duration-ms="5944">
+    <test started-at="2024-01-30T16:47:37 IST" name="Test" finished-at="2024-01-30T16:47:52 IST" duration-ms="14688">
       <class name="com.PracticeProject.SampleTest">
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.PracticeProject.SampleTest@4988d8b8]" started-at="2024-01-29T17:55:49 IST" name="config_BC" finished-at="2024-01-29T17:55:52 IST" duration-ms="3700" status="PASS">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.PracticeProject.SampleTest@394df057]" started-at="2024-01-30T16:47:37 IST" name="config_BC" finished-at="2024-01-30T16:47:49 IST" duration-ms="12208" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[-- launched browser --]]>
             </line>
           </reporter-output>
         </test-method> <!-- config_BC -->
-        <test-method signature="sample1Test()[pri:0, instance:com.PracticeProject.SampleTest@4988d8b8]" started-at="2024-01-29T17:55:52 IST" name="sample1Test" finished-at="2024-01-29T17:55:52 IST" duration-ms="17" status="PASS">
+        <test-method signature="sample1Test()[pri:0, instance:com.PracticeProject.SampleTest@394df057]" started-at="2024-01-30T16:47:49 IST" name="sample1Test" finished-at="2024-01-30T16:47:49 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample1Test -->
-        <test-method signature="sample3Test()[pri:0, instance:com.PracticeProject.SampleTest@4988d8b8]" started-at="2024-01-29T17:55:52 IST" name="sample3Test" finished-at="2024-01-29T17:55:52 IST" duration-ms="2" status="PASS">
+        <test-method signature="sample3Test()[pri:0, instance:com.PracticeProject.SampleTest@394df057]" started-at="2024-01-30T16:47:49 IST" name="sample3Test" finished-at="2024-01-30T16:47:49 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample3Test -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.PracticeProject.SampleTest@4988d8b8]" started-at="2024-01-29T17:55:52 IST" name="config_AC" finished-at="2024-01-29T17:55:53 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.PracticeProject.SampleTest@394df057]" started-at="2024-01-30T16:47:49 IST" name="config_AC" finished-at="2024-01-30T16:47:50 IST" duration-ms="320" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[-- browser closed --]]>
@@ -51,18 +51,18 @@
         </test-method> <!-- config_AC -->
       </class> <!-- com.PracticeProject.SampleTest -->
       <class name="com.PracticeProject.DisplayTest">
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.PracticeProject.DisplayTest@13b6aecc]" started-at="2024-01-29T17:55:53 IST" name="config_BC" finished-at="2024-01-29T17:55:54 IST" duration-ms="1568" status="PASS">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.PracticeProject.DisplayTest@45b4c3a9]" started-at="2024-01-30T16:47:50 IST" name="config_BC" finished-at="2024-01-30T16:47:51 IST" duration-ms="1749" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[-- launched browser --]]>
             </line>
           </reporter-output>
         </test-method> <!-- config_BC -->
-        <test-method signature="display1Test()[pri:0, instance:com.PracticeProject.DisplayTest@13b6aecc]" started-at="2024-01-29T17:55:54 IST" name="display1Test" finished-at="2024-01-29T17:55:54 IST" duration-ms="5" status="PASS">
+        <test-method signature="display1Test()[pri:0, instance:com.PracticeProject.DisplayTest@45b4c3a9]" started-at="2024-01-30T16:47:51 IST" name="display1Test" finished-at="2024-01-30T16:47:51 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display1Test -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.PracticeProject.DisplayTest@13b6aecc]" started-at="2024-01-29T17:55:54 IST" name="config_AC" finished-at="2024-01-29T17:55:54 IST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.PracticeProject.DisplayTest@45b4c3a9]" started-at="2024-01-30T16:47:51 IST" name="config_AC" finished-at="2024-01-30T16:47:52 IST" duration-ms="238" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[-- browser closed --]]>
