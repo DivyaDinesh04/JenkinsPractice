@@ -2,9 +2,8 @@ package com.PracticeProject;
 
 import org.testng.annotations.Test;
 
-import com.genericLibrary.BaseClass;
 
-public class SampleTest extends BaseClass{
+public class SampleTest {
 	
 	@Test(groups = "smoke")
 	public void sample1Test()
